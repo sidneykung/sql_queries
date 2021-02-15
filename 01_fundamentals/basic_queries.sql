@@ -11,14 +11,28 @@
 -- "foreign keys" refer to the keys of other tables
 
 -- SELECT: returns results or a set of results from a query
--- * selects everything
-SELECT * FROM Customer;
+-- * selects all columns
+-- the FROM clause queries where to get the data from
+SELECT * FROM Country;
 
--- selecting rows
+-- we can query certain columns
+SELECT Name, LifeExpectancy AS "Life Expectancy" FROM Country ORDER BY Name;
+-- the AS clause allows you to create an alias name for a column
+-- notice how we used double quotes for an identifier
 
--- selecting columns
+-- selecting rows 
+-- querying rows that only contain Europe in the Continent column
+-- the LIIMIT clause returns only 5 rows
+SELECT Name, Continent, Region FROM Country WHERE Continent = 'Europe' ORDER BY Name LIMIT 5;
 
--- counting rows
+-- counting rows (instead of listing them)
+-- this query counts the number of rows from the table
+SELECT COUNT(*) FROM Country:
+-- we can modify the query to have conditions
+SELECT COUNT(*) FROM Country WHERE Population > 1000000 AND Continent = 'Europe':
+
+-- querying the count of a specific column will return a different number because it only counts the rows that have data (doesn't count missing values)
+SELECT COUNT(LifeExpectancy) FROM Country;
 
 -- INSERT: inserting data
 -- this statement used to add a row to a table
