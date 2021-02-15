@@ -34,4 +34,4 @@ Zip = '98056'
 WHERE id = 5;
 
 -- deleting data
--- this statemetn is used to delete data
+-- this statement is used to delete data
