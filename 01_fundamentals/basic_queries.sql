@@ -29,23 +29,25 @@ SELECT Name, Continent, Region FROM Country WHERE Continent = 'Europe' ORDER BY 
 -- this query counts the number of rows from the table
 SELECT COUNT(*) FROM Country:
 -- we can modify the query to have conditions
-SELECT COUNT(*) FROM Country WHERE Population > 1000000 AND Continent = 'Europe':
+SELECT COUNT(*) FROM Country WHERE Population > 1000000 AND Continent = 'Europe';
 
 -- querying the count of a specific column will return a different number because it only counts the rows that have data (doesn't count missing values)
 SELECT COUNT(LifeExpectancy) FROM Country;
 
 -- INSERT: inserting data
 -- this statement used to add a row to a table
-INSERT INTO Customer (name, city, state)
-VALUES ('Jimi Hendrix', 'Renton', 'WA');
+INSERT INTO Customer (name, address, city, state, zip)
+VALUES ('Fred Flinstone', '123 Cobblestone Way', 'Bedrock', 'CA', '91234');
+-- note that a query could populate specific columns only. the columns that are not specified will have NULL values
 
 -- UPDATE: updating data
 -- this statement is used to change data
 UPDATE Customer
-SET
-Address = '123 Music Avenue',
-Zip = '98056'
+SET address = '123 Music Avenue', zip = '98056'
 WHERE id = 5;
+-- if you don't have the WHERE clause, it's going to update the entire table
 
--- deleting data
+-- DELETE: deleting data
 -- this statement is used to delete data
+DELETE FROM Customer WHERE id=4;
+-- if you don't use the WHERE clause, it's going to delete the entire table
