@@ -4,7 +4,7 @@
 -- CRUD: the 4 fundimental functions of a database system
 -- create, read, update, delete
 
--- a relationsal data base has one or more tables, that each have rows and columsn
+-- a relational database has one or more tables, that each have rows and columsn
 -- a row is like a "record" that has a unique key
 -- a column is like a "field"
 -- each table's key is used to create relationships between tables
