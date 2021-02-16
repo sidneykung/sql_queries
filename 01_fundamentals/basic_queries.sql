@@ -10,6 +10,8 @@
 -- each table's key is used to create relationships between tables
 -- "foreign keys" refer to the keys of other tables
 
+-- 
+
 -- SELECT: returns results or a set of results from a query
 -- * selects all columns
 -- the FROM clause queries where to get the data from
@@ -34,11 +36,15 @@ SELECT COUNT(*) FROM Country WHERE Population > 1000000 AND Continent = 'Europe'
 -- querying the count of a specific column will return a different number because it only counts the rows that have data (doesn't count missing values)
 SELECT COUNT(LifeExpectancy) FROM Country;
 
+--
+
 -- INSERT: inserting data
 -- this statement used to add a row to a table
 INSERT INTO Customer (name, address, city, state, zip)
 VALUES ('Fred Flinstone', '123 Cobblestone Way', 'Bedrock', 'CA', '91234');
 -- note that a query could populate specific columns only. the columns that are not specified will have NULL values
+
+--
 
 -- UPDATE: updating data
 -- this statement is used to change data
@@ -47,7 +53,9 @@ SET address = '123 Music Avenue', zip = '98056'
 WHERE id = 5;
 -- if you don't have the WHERE clause, it's going to update the entire table
 
+--
+
 -- DELETE: deleting data
 -- this statement is used to delete data
-DELETE FROM Customer WHERE id=4;
+DELETE FROM Customer WHERE id = 4;
 -- if you don't use the WHERE clause, it's going to delete the entire table
