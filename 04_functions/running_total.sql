@@ -29,3 +29,6 @@ SELECT game_id, game_level, gamer_id, competition_date, score,
         ORDER BY competition_date)
   AS total_score
 FROM competition;
+
+-- source for queries in this file:
+-- https://learnsql.com/blog/what-is-a-running-total-and-how-to-compute-it-in-sql/
