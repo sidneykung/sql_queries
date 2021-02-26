@@ -1,5 +1,11 @@
 -- CREATE: creating a table
 CREATE TABLE table_name (
+    column_a DATA_TYPE,
+    column_b DATA_TYPE,
+    column_c DATA_TYPE
+);
+--
+CREATE TABLE table_name (
     column_a INTEGER,
     column_b TEXT,
     column_c TEXT
@@ -36,15 +42,16 @@ SELECT * FROM table_name WHERE column_a is NOT NULL;
 
 --
 
--- constraining columns: setting rules/behaviors for columns
+-- Constraints: setting rules/behaviors for columns
+-- 1. NOT NULL columns must have a value
+-- attempts to insert a row without a value for a NOT NULL column will result in a constraint violation and the new row will not be inserted 
 CREATE TABLE table_name (
     column_a INTEGER NOT NULL,
     column_b TEXT NOT NULL,
     column_c TEXT NOT NULL
 );
--- by adding NOT NULL to each column when creating the table, queries that insert NULL values will fail
 
--- you could also give the column a default value
+-- 2. you could also give the column a default value
 CREATE TABLE table_name (
     column_a INTEGER DEFAULT 'missing',
     column_b TEXT,
@@ -52,7 +59,7 @@ CREATE TABLE table_name (
 );
 -- now when we fail to add data explicitly to column_a, then it will insert this default value
 
--- another common constraing ensures that every value in a column is unique
+-- 3. another common constraing ensures that every value in a column is unique
 CREATE TABLE table_name (
     column_a INTEGER UNIQUE,
     column_b TEXT,
@@ -79,6 +86,13 @@ CREATE TABLE table_name (
     column_c TEXT
 );
 -- when you insert values into this table, the id column will populate itself
+
+-- 
+
+-- UPDATE: used when you want to change existing records
+UPDATE table_name
+SET column_c = 'new_value'
+WHERE id = 4;
 
 -- 
 
