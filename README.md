@@ -1,8 +1,6 @@
 ## SQL Queries
 
-This repository contains fundamental SQL queries. Read the comments to understand what each query does.
-
-Please note that every SQL system accepts a different syntax so be sure to refer to documentation.
+This repository contains fundamental SQL queries. Please note that every SQL system accepts a different syntax so be sure to refer to documentation.
 
 ## Resources
 1. [Khan Academy’s Intro to SQL course](https://www.khanacademy.org/computing/computer-programming/sql): Instructional videos and hands-on activities reinforcing the SQL you learned in the course. (5 hours)
