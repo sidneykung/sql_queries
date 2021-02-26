@@ -29,7 +29,8 @@ Please note that every SQL system accepts a different syntax so be sure to refer
 - `LIKE` is used inside of a `WHERE` clause to match a specific pattern
 - `BETWEEN` filters by a range of values
 - `AND` displays a row if all the conditions are true
-- `OR` displays a row if any condition is trueORDER BY sorts the result
+- `OR` displays a row if any condition is true
+- `ORDER BY` sorts the result
 - `LIMIT` specifies the maximum number of rows that the query will return
 - `CASE` creates different outputs
 
