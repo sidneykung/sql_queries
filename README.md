@@ -33,6 +33,12 @@ This repository contains fundamental SQL queries. Please note that every SQL sys
 - `CASE` creates different outputs
 
 #### Aggregate Functions
-
+- `COUNT()` counts the number of rows
+- `SUM()` is the sum of the values in a column
+- `MAX()` & `MIN()` is the largest or smallest value
+- `AVG()` is the average of the values in a column
+- `ROUND()` rounds the values in the column
+- `GROUP BY` is a clause used with aggregate functions to combine data from one or more columns
+- `HAVING` limits the results of a query based on an aggregate property.`
 
 #### Multiple Tables
