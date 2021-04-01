@@ -51,3 +51,13 @@ This repository contains fundamental SQL queries. Please note that every SQL sys
 - `CROSS JOIN` lets us combine all rows of one table with all rows of another table
 - `UNION` stacks one dataset on top of another
 - `WITH` allows us to define one or more temporary tables that can be used in the final query
+
+## For More Information
+
+- For additional information or suggestions, contact Sidney Kung at [sidneyjkung@gmail.com](mailto:sidneyjkung@gmail.com)
+
+**Let's connect!**
+
+- [LinkedIn](https://www.linkedin.com/in/sidneykung/)
+
+- [Twitter](https://twitter.com/sidney_k98)
