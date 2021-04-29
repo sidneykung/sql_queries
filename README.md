@@ -1,4 +1,4 @@
-## SQL Queries
+## Fundamental SQL Queries
 
 This repository contains fundamental SQL queries. Please note that every SQL system accepts a different syntax so be sure to refer to documentation.
 
