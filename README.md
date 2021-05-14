@@ -12,8 +12,6 @@ This repository contains fundamental SQL queries. Please note that every SQL sys
 - [PostgreSQL Exercises](https://pgexercises.com/)
 
 ## Fundamentals
-
-#### Managing Data
 - `CREATE TABLE` creates a new table
 - `INSERT INTO` adds a new row to a table
 - `SELECT` queries data from a table
