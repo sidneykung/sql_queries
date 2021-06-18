@@ -2,7 +2,7 @@
 
 This repository contains fundamental SQL queries. Please note that every SQL system accepts a different syntax so be sure to refer to documentation.
 
-## Resources
+## Learning Resources
 - [Khan Academy’s Intro to SQL course](https://www.khanacademy.org/computing/computer-programming/sql): Instructional videos and hands-on activities reinforcing the SQL you learned in the course. (5 hours)
 - [Codecademy’s Learn SQL course](https://www.codecademy.com/learn/learn-sql): Four free interactive lessons that do not require a Pro subscription. (3 hours)
 - [SQLBolt](https://sqlbolt.com/): Proceeds from basic queries to more complicated queries and row/table manipulation. (3 hours)
