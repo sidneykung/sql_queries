@@ -10,6 +10,7 @@ This repository contains fundamental SQL queries. Please note that every SQL sys
 - [Kaggle’s Intro to SQL course](https://www.kaggle.com/learn/intro-to-sql): Teaches SQL fundamentals in Jupyter Notebooks using Python and Google BigQuery. (5 hours)
 - [W3Schools](https://www.w3schools.com/sql/default.asp)
 - [PostgreSQL Exercises](https://pgexercises.com/)
+- [Visual JOIN](https://joins.spathon.com/)
 
 ## Fundamentals
 - `CREATE TABLE` creates a new table
